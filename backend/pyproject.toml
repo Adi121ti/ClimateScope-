@@ -3,6 +3,9 @@
 name = "climate-scope-backend"
 version = "0.1.0"
 requires-python = ">=3.11"
+dependencies = [
+    "Django>=4.2,<5.0",
+]
 
 [tool.vercel]
 entrypoint = "climate_project.asgi:application"
